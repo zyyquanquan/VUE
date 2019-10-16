@@ -36,9 +36,14 @@ export default new Router({
             component: () => import('./views/3-1.vue')
         },
         {
-            path: '/3-1',
+            path: '/3-2',
             name: 'axios配置参数',
             component: () => import('./views/3-2.vue')
+        },
+        {
+            path: '/3-3',
+            name: 'axios拦截器',
+            component: () => import('./views/3-3.vue')
         }
     ]
 })
