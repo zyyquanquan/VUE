@@ -24,6 +24,21 @@ export default new Router({
             path: '/2-2',
             name: 'axios请求方法',
             component: () => import('./views/2-2.vue')
+        },
+        {
+            path: '/2-3',
+            name: 'axios并发请求',
+            component: () => import('./views/2-3.vue')
+        },
+        {
+            path: '/3-1',
+            name: 'axios实例',
+            component: () => import('./views/3-1.vue')
+        },
+        {
+            path: '/3-1',
+            name: 'axios配置参数',
+            component: () => import('./views/3-2.vue')
         }
     ]
 })
