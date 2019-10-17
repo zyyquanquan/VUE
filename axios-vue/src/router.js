@@ -44,6 +44,11 @@ export default new Router({
             path: '/3-3',
             name: 'axios拦截器',
             component: () => import('./views/3-3.vue')
+        },
+        {
+            path: '/contactList',
+            name: '联系人列表',
+            component: () => import('./views/ContactList.vue')
         }
     ]
 })
